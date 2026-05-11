@@ -1,6 +1,12 @@
-export const locations = [
-  { id: 1, name: 'Downtown GFC', address: '123 Main St, City', hours: '9am - 9pm' },
-  { id: 2, name: 'Uptown GFC', address: '456 Market Ave, City', hours: '10am - 8pm' },
+const locations = [
+  {
+    id: 1,
+    name: "GFC Borama",
+    address: "Near Masjid Geed Goble, Borama",
+    phone: "+252 63 778 0005",
+    hours: "8:00 — 23:00",
+    isOpen: true,
+  },
 ]
 
 export default locations

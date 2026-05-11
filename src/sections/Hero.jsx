@@ -1,7 +1,7 @@
 const stats = [
-  { value: "70+",  label: "Years of taste" },
-  { value: "25K+", label: "Stores worldwide" },
-  { value: "4.9★", label: "Customer rating" },
+
+
+  { value: "5★", label: "Customer rating" },
 ]
 
 function Hero() {
@@ -33,7 +33,7 @@ function Hero() {
             {/* Open badge */}
             <div className="flex items-center gap-2 mb-6">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              <span className="text-green-400 text-sm">Open now · Delivery in 25 min</span>
+              <span className="text-green-400 text-sm">Open now · Delivery </span>
             </div>
 
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
@@ -50,13 +50,13 @@ function Hero() {
             <div className="flex items-center gap-4 flex-wrap">
               <button
                 onClick={() => handleScroll("#menu")}
-                className="px-7 py-3 bg-white text-dark font-semibold rounded-full hover:bg-gray-100 transition-colors"
+                className="px-7 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-black   transition-colors"
               >
                 Order Now ↗
               </button>
               <button
                 onClick={() => handleScroll("#menu")}
-                className="px-7 py-3 border border-white/30 text-white rounded-full hover:bg-white/10 transition-colors"
+                className="px-7 py-3 border border-yellow-400 text-white rounded-full hover:bg-black   transition-colors"
               >
                 View Menu
               </button>
@@ -80,10 +80,7 @@ function Hero() {
             <h3 className="text-white font-bold text-xl mb-1">Bucket of 8</h3>
             <p className="text-gray-500 text-sm mb-4">Original recipe pieces with two sides</p>
             <div className="flex items-center justify-between">
-              <div>
-                <span className="text-gray-500 line-through text-sm mr-2">$29.99</span>
-                <span className="text-gold font-bold text-2xl">$24.99</span>
-              </div>
+              
               <button
                 onClick={() => handleScroll("#menu")}
                 className="w-10 h-10 rounded-full bg-gold flex items-center justify-center hover:bg-yellow-400 transition-colors"
