@@ -3,7 +3,11 @@ import locations from "../data/locations"
 
 function Location() {
   return (
-    <section id="location" className="py-24 bg-dark">
+    <section
+      id="location"
+      className="py-24"
+      style={{ background: "linear-gradient(135deg, #F5A623 0%, #E8700A 40%, #C23B00 100%)" }}
+    >
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section header */}
@@ -16,7 +20,7 @@ function Location() {
               Visit <span className="text-gold italic">us.</span>
             </h2>
           </div>
-          <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
+          <p className="text-white/60 text-sm leading-relaxed max-w-xs">
             Stop by our restaurant or order delivery — we bring fresh,
             delicious food right to your door.
           </p>
@@ -32,7 +36,7 @@ function Location() {
               alt="Delivery rider"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
             <div className="absolute bottom-5 left-5">
               <span className="flex items-center gap-2 bg-green-500/20 text-green-400 text-xs font-medium px-3 py-1.5 rounded-full border border-green-500/30 mb-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
@@ -54,7 +58,5 @@ function Location() {
     </section>
   )
 }
-
-
 
 export default Location

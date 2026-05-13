@@ -18,7 +18,11 @@ function Menu() {
       : menuItems.filter((item) => item.category === active)
 
   return (
-    <section id="menu" className="py-24 bg-dark">
+    <section
+      id="menu"
+      className="py-24"
+      style={{ background: "linear-gradient(160deg, #6B0000 0%, #8B0000 50%, #B22222 100%)" }}
+    >
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Header */}
@@ -32,7 +36,7 @@ function Menu() {
               <span className="text-gold italic">crave.</span>
             </h2>
           </div>
-          <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
+          <p className="text-white/50 text-sm leading-relaxed max-w-xs">
             This is our delicious menu, crafted to satisfy your cravings. From our signature chicken meals to mouthwatering burgers and refreshing drinks, every item is made with love and the finest ingredients. Explore our menu and find your new favorite today!
           </p>
         </div>
@@ -46,7 +50,7 @@ function Menu() {
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
                 active === cat.id
                   ? "bg-gold text-dark"
-                  : "border border-border text-gray-400 hover:border-white/30 hover:text-white"
+                  : "border border-white/20 text-white/70 hover:border-white/50 hover:text-white"
               }`}
             >
               {cat.label}
@@ -56,7 +60,7 @@ function Menu() {
 
         {/* Grid */}
         {filtered.length === 0 ? (
-          <p className="text-gray-500 text-sm text-center py-16">
+          <p className="text-white/40 text-sm text-center py-16">
             No items found.
           </p>
         ) : (

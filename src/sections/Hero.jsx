@@ -1,6 +1,4 @@
 const stats = [
-
-
   { value: "5★", label: "Customer rating" },
 ]
 
@@ -12,18 +10,28 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center bg-dark overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, #0d0000 0%, #3B0000 35%, #8B1A00 65%, #1a0d00 100%)",
+      }}
     >
       {/* Background food image overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-30"
+        className="absolute inset-0 bg-cover bg-center opacity-50"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=1400&q=80')",
         }}
       />
+
       {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-dark/40" />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to right, #0d0000 0%, rgba(13,0,0,0.85) 50%, rgba(26,13,0,0.2) 100%)",
+        }}
+      />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-16 w-full">
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12">
@@ -50,13 +58,13 @@ function Hero() {
             <div className="flex items-center gap-4 flex-wrap">
               <button
                 onClick={() => handleScroll("#menu")}
-                className="px-7 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-black   transition-colors"
+                className="px-7 py-3 bg-red-600 text-white font-semibold rounded-full hover:bg-black transition-colors"
               >
                 Order Now ↗
               </button>
               <button
                 onClick={() => handleScroll("#menu")}
-                className="px-7 py-3 border border-yellow-400 text-white rounded-full hover:bg-black   transition-colors"
+                className="px-7 py-3 border border-yellow-400 text-white rounded-full hover:bg-black transition-colors"
               >
                 View Menu
               </button>
@@ -74,13 +82,19 @@ function Hero() {
           </div>
 
           {/* Right — Today's Special card */}
-          <div className="w-full lg:w-72 bg-card border border-border rounded-2xl p-5 flex-shrink-0">
+          <div
+            className="w-full lg:w-72 rounded-2xl p-5 flex-shrink-0"
+            style={{
+              background: "rgba(10, 3, 0, 0.80)",
+              backdropFilter: "blur(12px)",
+              border: "1px solid rgba(255,255,255,0.08)",
+            }}
+          >
             <p className="text-gray-500 text-xs uppercase tracking-widest mb-4">Today's Special</p>
             <div className="text-5xl mb-4">🍗</div>
             <h3 className="text-white font-bold text-xl mb-1">Bucket of 8</h3>
             <p className="text-gray-500 text-sm mb-4">Original recipe pieces with two sides</p>
             <div className="flex items-center justify-between">
-              
               <button
                 onClick={() => handleScroll("#menu")}
                 className="w-10 h-10 rounded-full bg-gold flex items-center justify-center hover:bg-yellow-400 transition-colors"

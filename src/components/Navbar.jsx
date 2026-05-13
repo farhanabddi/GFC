@@ -17,7 +17,12 @@ function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-dark/90 backdrop-blur-sm border-b border-border">
+    <nav
+      className="fixed top-0 w-full z-50 border-b border-white/10"
+      style={{
+        background: "linear-gradient(90deg, #2A0E00 0%, #4A1E00 60%, #7B3800 100%)",
+      }}
+    >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
@@ -28,14 +33,17 @@ function Navbar() {
           <span className="text-white font-bold text-lg tracking-wide">GFC</span>
         </div>
 
-        {/* Desktop links */}
-        <ul className="hidden md:flex items-center gap-1">
+        {/* Desktop links — pill container matching image */}
+        <ul
+          className="hidden md:flex items-center gap-1 px-3 py-1.5 rounded-full"
+          style={{ background: "rgba(0,0,0,0.35)" }}
+        >
           {links.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
                 onClick={(e) => handleScroll(e, link.href)}
-                className="px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-full transition-all"
+                className="px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/15 rounded-full transition-all"
               >
                 {link.label}
               </a>
@@ -56,7 +64,10 @@ function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-card border-t border-border px-6 py-4 flex flex-col gap-2">
+        <div
+          className="md:hidden border-t border-white/10 px-6 py-4 flex flex-col gap-2"
+          style={{ background: "#2A0E00" }}
+        >
           {links.map((link) => (
             <a
               key={link.href}

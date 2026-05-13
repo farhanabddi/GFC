@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ── Global background gradient ─────────────────────── */
+body {
+  background: linear-gradient(160deg, #6B0000 0%, #8B0000 40%, #B22222 100%);
+  min-height: 100vh;
+}
+
+/* ── Section overrides — match the red gradient theme ─ */
+/* dark bg sections */
+.bg-dark {
+  background: transparent !important;
+}
+
+/* card bg */
+.bg-card {
+  background: rgba(155, 17, 17, 0.7) !important;
+  backdrop-filter: blur(4px);
+}
+
+/* alternate section bg */
+.bg-\[\#111111\] {
+  background: rgba(107, 0, 0, 0.5) !important;
+}
+
+/* border color */
+.border-border {
+  border-color: #6B0000 !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #6B0000; }
+::-webkit-scrollbar-thumb { background: #F5A623; border-radius: 3px; }
