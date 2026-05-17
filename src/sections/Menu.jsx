@@ -3,10 +3,11 @@ import MenuCard from "../components/MenuCard"
 import menuItems from "../data/menuItems"
 
 const categories = [
-  { id: "all",     label: "All"     },
-  { id: "chicken", label: "Chicken" },
-  { id: "burgers", label: "Burgers" },
-  { id: "drinks",  label: "Drinks"  },
+  { id: "all",      label: "All"      },
+  { id: "chicken",  label: "Chicken"  },
+  { id: "sandwich", label: "Sandwich" },
+  { id: "pizza",    label: "Pizza"    },
+  { id: "drinks",   label: "Drinks"   },
 ]
 
 function Menu() {
@@ -37,7 +38,8 @@ function Menu() {
             </h2>
           </div>
           <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-            This is our delicious menu, crafted to satisfy your cravings. From our signature chicken meals to mouthwatering burgers and refreshing drinks, every item is made with love and the finest ingredients. Explore our menu and find your new favorite today!
+            From crispy chicken to fresh pizza — every item is made
+            fresh with the finest ingredients.
           </p>
         </div>
 
@@ -60,9 +62,7 @@ function Menu() {
 
         {/* Grid */}
         {filtered.length === 0 ? (
-          <p className="text-white/40 text-sm text-center py-16">
-            No items found.
-          </p>
+          <p className="text-white/40 text-sm text-center py-16">No items found.</p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {filtered.map((item) => (
