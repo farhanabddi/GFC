@@ -27,10 +27,9 @@ function Navbar() {
 
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center">
-            <span className="text-dark font-bold text-sm">G</span>
-          </div>
-          <span className="text-white font-bold text-lg tracking-wide">GFC</span>
+          
+    
+          <img src="src/assets/images/GFC L.png" alt="GFC" />
         </div>
 
         {/* Desktop links — pill container matching image */}

@@ -292,7 +292,7 @@ const menuItems = [
     name: "Coca Cola",
     category: "drinks",
     description: "Ice cold Coca Cola",
-    image: "",
+    image: "src/assets/images/coka.jpg",
     isNew: false,
   },
   {
@@ -300,7 +300,7 @@ const menuItems = [
     name: "Pepsi",
     category: "drinks",
     description: "Ice cold Pepsi — bold and refreshing",
-    image: "",
+    image: "src/assets/images/pipsi.jpg",
     isNew: false,
   },
   {
@@ -308,7 +308,7 @@ const menuItems = [
     name: "Mango Juice",
     category: "drinks",
     description: "Fresh chilled mango juice",
-    image: "",
+    image: "src/assets/images/mango.jpg",
     isNew: false,
   },
   {
@@ -316,7 +316,7 @@ const menuItems = [
     name: "Watermelon Juice",
     category: "drinks",
     description: "Cold fresh watermelon juice",
-    image: "",
+    image: "src/assets/images/Water.jpg",
     isNew: false,
   },
   {
@@ -324,7 +324,7 @@ const menuItems = [
     name: "Lemon Juice",
     category: "drinks",
     description: "Freshly squeezed lemon juice with mint",
-    image: "",
+    image: "src/assets/images/Lemon.jpg ",
     isNew: false,
   },
   {
@@ -332,7 +332,7 @@ const menuItems = [
     name: "Orange Juice",
     category: "drinks",
     description: "Fresh squeezed orange juice",
-    image: "",
+    image: "src/assets/images/Orange.jpg",
     isNew: false,
   },
   {
@@ -340,7 +340,7 @@ const menuItems = [
     name: "Sprite",
     category: "drinks",
     description: "Crisp lemon-lime Sprite",
-    image: "",
+    image: "src/assets/images/Sprite.jpg",
     isNew: false,
   },
   {
@@ -348,7 +348,7 @@ const menuItems = [
     name: "Fanta Orange",
     category: "drinks",
     description: "Fizzy Fanta with burst of orange",
-    image: "",
+    image: "src/assets/images/Fnata.jpg",
     isNew: false,
   },
 ]
