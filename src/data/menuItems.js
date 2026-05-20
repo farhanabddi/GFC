@@ -6,7 +6,7 @@ const menuItems = [
     name: "2 Pcs Chicken",
     category: "chicken",
     description: "2 pieces of chicken + fries + bread + garlic dip",
-    image: "src/assets/images/1.jpg",
+    image: "/images/1.jpg",
     isNew: false,
   },
   {
@@ -14,7 +14,7 @@ const menuItems = [
     name: "Meal Fingers",
     category: "chicken",
     description: "3 boneless chicken + fries + bread + garlic dip",
-    image: "src/assets/images/2.jpg",
+    image: "/images/2.jpg",
     isNew: false,
   },
   {
@@ -22,7 +22,7 @@ const menuItems = [
     name: "Meal Chicken",
     category: "chicken",
     description: "20 chicken pieces + 3 bread + fries + garlic dip",
-    image: "src/assets/images/3.jpg",
+    image: "/images/3.jpg",
     isNew: false,
   },
   {
@@ -30,7 +30,7 @@ const menuItems = [
     name: "4 Pcs Chicken",
     category: "chicken",
     description: "4 pieces of chicken + bread + fries + garlic dip",
-    image: "src/assets/images/4.jpg",
+    image: "/images/4.jpg",
     isNew: false,
   },
   {
@@ -38,7 +38,7 @@ const menuItems = [
     name: "Meal Fingers Large",
     category: "chicken",
     description: "5 boneless chicken + bread + potatoes + garlic dip",
-    image: "src/assets/images/5.jpg",
+    image: "/images/5.jpg",
     isNew: false,
   },
   {
@@ -46,7 +46,7 @@ const menuItems = [
     name: "Mixed Chicken Meal",
     category: "chicken",
     description: "Mixed chicken + 2 funkers + 1 chicken",
-    image: "src/assets/images/6.jpg",
+    image: "/images/6.jpg",
     isNew: false,
   },
   {
@@ -54,7 +54,7 @@ const menuItems = [
     name: "Nuggets",
     category: "chicken",
     description: "7 pieces nuggets + fries + bread + garlic dip",
-    image: "src/assets/images/7.jpg",
+    image: "/images/7.jpg",
     isNew: false,
   },
   {
@@ -62,7 +62,7 @@ const menuItems = [
     name: "Loaded Chicken Sauce",
     category: "chicken",
     description: "Crispy strips with our special sauce",
-    image: "src/assets/images/8.jpg   ",
+    image: "/images/8.jpg   ",
     isNew: false,
   },
   {
@@ -70,7 +70,7 @@ const menuItems = [
     name: "Piece of Chicken",
     category: "chicken",
     description: "1 crispy piece of chicken + fries",
-    image: "src/assets/images/9.jpg",
+    image: "/images/9.jpg",
     isNew: false,
   },
   {
@@ -78,7 +78,7 @@ const menuItems = [
     name: "10 Pcs Chicken",
     category: "chicken",
     description: "10 chicken pieces + 2 bread + fries + 2 Coca",
-    image: "src/assets/images/10.jpg",
+    image: "/images/10.jpg",
     isNew: false,
   },
   {
@@ -86,7 +86,7 @@ const menuItems = [
     name: "Broast & Strip Meal",
     category: "chicken",
     description: "4 broast + 4 strip + 2 bread + fries + 2 Coca",
-    image: "src/assets/images/11.jpg",
+    image: "/images/11.jpg",
     isNew: false,
   },
   {
@@ -94,7 +94,7 @@ const menuItems = [
     name: "Chips",
     category: "chicken",
     description: "Crispy golden chips",
-    image: "src/assets/images/12.jpg",
+    image: "/images/12.jpg",
     isNew: false,
   },
   {
@@ -102,7 +102,7 @@ const menuItems = [
     name: "3 Strips + Rice",
     category: "chicken",
     description: "3 pieces strips + Rice + Coke",
-    image: "src/assets/images/25.jpg",
+    image: "/images/25.jpg",
     isNew: false,
   },
   {
@@ -110,7 +110,7 @@ const menuItems = [
     name: "4 Pcs Broast + Rice",
     category: "chicken",
     description: "4 pieces broast + Rice + Coke",
-    image: "src/assets/images/26.jpg",
+    image: "/images/26.jpg",
     isNew: false,
   },
   {
@@ -118,7 +118,7 @@ const menuItems = [
     name: "5 Strips + Rice",
     category: "chicken",
     description: "5 pieces strip + Rice + Coke",
-    image: "src/assets/images/27.jpg",
+    image: "/images/27.jpg",
     isNew: false,
   },
 
@@ -128,7 +128,7 @@ const menuItems = [
     name: "Super Roll Chicken",
     category: "sandwich",
     description: "Super roll chicken + fries + 1pc chicken",
-    image: "src/assets/images/13.jpg",
+    image: "/images/13.jpg",
     isNew: false,
   },
   {
@@ -136,7 +136,7 @@ const menuItems = [
     name: "Super Burger Fillet",
     category: "sandwich",
     description: "Super burger fillet + fries + 1pc chicken",
-    image: "src/assets/images/14.jpg  ",
+    image: "/images/14.jpg  ",
     isNew: false,
   },
   {
@@ -144,7 +144,7 @@ const menuItems = [
     name: "Super Zinger Sandwich",
     category: "sandwich",
     description: "Super Zinger + fries + Coca Cola + 1pc chicken",
-    image: "src/assets/images/15.jpg",
+    image: "/images/15.jpg",
     isNew: false,
   },
   {
@@ -152,7 +152,7 @@ const menuItems = [
     name: "Crispy Roll Chicken",
     category: "sandwich",
     description: "Crispy roll chicken + fries",
-    image: "src/assets/images/16.jpg",
+    image: "/images/16.jpg",
     isNew: false,
   },
   {
@@ -160,7 +160,7 @@ const menuItems = [
     name: "Chicken Burger Fillet",
     category: "sandwich",
     description: "Chicken burger fillet + fries",
-    image: "src/assets/images/17.jpg",
+    image: "/images/17.jpg",
     isNew: false,
   },
   {
@@ -168,7 +168,7 @@ const menuItems = [
     name: "Zinger + Fries",
     category: "sandwich",
     description: "Zinger sandwich + fries + Coca Cola",
-    image: "src/assets/images/18.jpg",
+    image: "/images/18.jpg",
     isNew: false,
   },
   {
@@ -176,7 +176,7 @@ const menuItems = [
     name: "Crispy Roll Sandwich",
     category: "sandwich",
     description: "Crispy roll sandwich",
-    image: "src/assets/images/19.jpg",
+    image: "/images/19.jpg",
     isNew: false,
   },
   {
@@ -184,7 +184,7 @@ const menuItems = [
     name: "Zinger Sandwich",
     category: "sandwich",
     description: "Classic zinger sandwich",
-    image: "src/assets/images/20.jpg",
+    image: "/images/20.jpg",
     isNew: false,
   },
   {
@@ -192,7 +192,7 @@ const menuItems = [
     name: "Burger Fillet",
     category: "sandwich",
     description: "Crispy burger fillet sandwich",
-    image: "src/assets/images/21.jpg",
+    image: "/images/21.jpg",
     isNew: false,
   },
   {
@@ -200,7 +200,7 @@ const menuItems = [
     name: "Shawarma Chicken",
     category: "sandwich",
     description: "Shawarma chicken wrap",
-    image: "src/assets/images/22.jpg      ",
+    image: "/images/22.jpg      ",
     isNew: false,
   },
   {
@@ -208,7 +208,7 @@ const menuItems = [
     name: "Medium Burger",
     category: "sandwich",
     description: "Medium burger sandwich",
-    image: "src/assets/images/23.jpg",
+    image: "/images/23.jpg",
     isNew: false,
   },
   {
@@ -216,7 +216,7 @@ const menuItems = [
     name: "2 Pcs Broast + Rice",
     category: "sandwich",
     description: "2 pieces broast + Rice + Coke",
-    image: "src/assets/images/24.jpg",
+    image: "/images/24.jpg",
     isNew: false,
   },
 
@@ -226,7 +226,7 @@ const menuItems = [
     name: "Tona Fish Pizza",
     category: "pizza",
     description: "Fresh tuna fish with mozzarella and olives",
-    image: "src/assets/images/tuna.jpg",
+    image: "/images/tuna.jpg",
     isNew: false,
   },
   {
@@ -234,7 +234,7 @@ const menuItems = [
     name: "Chicken Pizza",
     category: "pizza",
     description: "Grilled chicken with mushrooms and cheese",
-    image: "src/assets/images/chicken Pizza.jpg",
+    image: "/images/chicken Pizza.jpg",
     isNew: false,
   },
   {
@@ -242,7 +242,7 @@ const menuItems = [
     name: "Cheese Pizza",
     category: "pizza",
     description: "Triple cheese blend on our signature base",
-    image: "src/assets/images/cheese.jpg",
+    image: "/images/cheese.jpg",
     isNew: false,
   },
   {
@@ -250,7 +250,7 @@ const menuItems = [
     name: "Pineapple Pizza",
     category: "pizza",
     description: "Sweet pineapple with ham and cheese",
-    image: "src/assets/images/pin.jpg",
+    image: "/images/pin.jpg",
     isNew: false,
   },
   {
@@ -258,7 +258,7 @@ const menuItems = [
     name: "Meat Pizza",
     category: "pizza",
     description: "Seasoned meat with peppers and cheese",
-    image: "src/assets/images/Meat.jpg",
+    image: "/images/Meat.jpg",
     isNew: false,
   },
   {
@@ -266,7 +266,7 @@ const menuItems = [
     name: "Vegetable Pizza",
     category: "pizza",
     description: "Fresh vegetables with mozzarella cheese",
-    image: "src/assets/images/Vegetables.jpg",
+    image: "/images/Vegetables.jpg",
     isNew: false,
   },
   {
@@ -274,7 +274,7 @@ const menuItems = [
     name: "Special Pizza",
     category: "pizza",
     description: "Chef special with premium toppings",
-    image: "src/assets/images/Sp.jpg",
+    image: "/images/Sp.jpg",
     isNew: false,
   },
   {
@@ -282,7 +282,7 @@ const menuItems = [
     name: "Mixed Pizza",
     category: "pizza",
     description: "Mixed toppings — the best of everything",
-    image: "src/assets/images/mixed.jpg",
+    image: "/images/mixed.jpg",
     isNew: false,
   },
 
@@ -292,7 +292,7 @@ const menuItems = [
     name: "Coca Cola",
     category: "drinks",
     description: "Ice cold Coca Cola",
-    image: "src/assets/images/coka.jpg",
+    image: "/images/coka.jpg",
     isNew: false,
   },
   {
@@ -300,7 +300,7 @@ const menuItems = [
     name: "Pepsi",
     category: "drinks",
     description: "Ice cold Pepsi — bold and refreshing",
-    image: "src/assets/images/pipsi.jpg",
+    image: "/images/pipsi.jpg",
     isNew: false,
   },
   {
@@ -308,7 +308,7 @@ const menuItems = [
     name: "Mango Juice",
     category: "drinks",
     description: "Fresh chilled mango juice",
-    image: "src/assets/images/mango.jpg",
+    image: "/images/mango.jpg",
     isNew: false,
   },
   {
@@ -316,7 +316,7 @@ const menuItems = [
     name: "Watermelon Juice",
     category: "drinks",
     description: "Cold fresh watermelon juice",
-    image: "src/assets/images/Water.jpg",
+    image: "/images/Water.jpg",
     isNew: false,
   },
   {
@@ -324,7 +324,7 @@ const menuItems = [
     name: "Lemon Juice",
     category: "drinks",
     description: "Freshly squeezed lemon juice with mint",
-    image: "src/assets/images/Lemon.jpg ",
+    image: "/images/Lemon.jpg ",
     isNew: false,
   },
   {
@@ -332,7 +332,7 @@ const menuItems = [
     name: "Orange Juice",
     category: "drinks",
     description: "Fresh squeezed orange juice",
-    image: "src/assets/images/Orange.jpg",
+    image: "/images/Orange.jpg",
     isNew: false,
   },
   {
@@ -340,7 +340,7 @@ const menuItems = [
     name: "Sprite",
     category: "drinks",
     description: "Crisp lemon-lime Sprite",
-    image: "src/assets/images/Sprite.jpg",
+    image: "/images/Sprite.jpg",
     isNew: false,
   },
   {
@@ -348,7 +348,7 @@ const menuItems = [
     name: "Fanta Orange",
     category: "drinks",
     description: "Fizzy Fanta with burst of orange",
-    image: "src/assets/images/Fnata.jpg",
+    image: "/images/Fnata.jpg",
     isNew: false,
   },
 ]

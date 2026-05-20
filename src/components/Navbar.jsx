@@ -29,7 +29,7 @@ function Navbar() {
         <div className="flex items-center gap-2">
           
     
-          <img src="src/assets/images/GFC L.png" alt="GFC" />
+          <img src="/images/GFC L.png" alt="GFC" />
         </div>
 
         {/* Desktop links — pill container matching image */}
