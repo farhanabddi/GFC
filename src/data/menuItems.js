@@ -22,7 +22,7 @@ const menuItems = [
     name: "Meal Chicken",
     category: "chicken",
     description: "20 chicken pieces + 3 bread + fries + garlic dip",
-    image: "/images/3.jpg",
+    image: "/images/03.jpg",
     isNew: false,
   },
   {
@@ -234,7 +234,7 @@ const menuItems = [
     name: "Chicken Pizza",
     category: "pizza",
     description: "Grilled chicken with mushrooms and cheese",
-    image: "/images/chicken Pizza.jpg",
+    image: "/images/Chicken Pizza.jpg",
     isNew: false,
   },
   {
@@ -242,7 +242,7 @@ const menuItems = [
     name: "Cheese Pizza",
     category: "pizza",
     description: "Triple cheese blend on our signature base",
-    image: "/images/cheese.jpg",
+    image: "/images/Cheese.jpg",
     isNew: false,
   },
   {

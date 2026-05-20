@@ -38,8 +38,7 @@ function Menu() {
             </h2>
           </div>
           <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-            From crispy chicken to fresh pizza — every item is made
-            fresh with the finest ingredients.
+            It's time to test the art of fried chicken.
           </p>
         </div>
 
