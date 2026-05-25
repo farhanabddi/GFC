@@ -1,45 +1,76 @@
 import { orderOnWhatsApp } from "../lib/whatsapp"
 
 function MenuCard({ item }) {
+  const imageSrc = item.image?.trim()
+
   return (
-    <div className="rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-200 flex flex-col"
-      style={{ background: "rgba(20,0,0,0.75)" }}
+    <div
+      className="rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-200 flex flex-col shadow-lg"
+      style={{ background: "#ffffff" }}
     >
 
-      {/* Image area — black bg, full image visible */}
+      {/* Image */}
       <div className="relative h-56 overflow-hidden bg-white flex items-center justify-center">
-        <img
-          src={item.image}
-          alt={item.name}
-          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-          onError={(e) => {
-            e.target.style.display = "none"
-          }}
-        />
+        {imageSrc ? (
+          <img
+            src={imageSrc}
+            alt={item.name}
+            className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
+            onError={(e) => {
+              e.target.style.display = "none"
+              e.target.nextSibling.style.display = "flex"
+            }}
+          />
+        ) : null}
+
+        {/* Fallback emoji — shows when no image or image fails */}
+        <div
+          className="absolute inset-0 flex items-center justify-center text-6xl"
+          style={{ display: imageSrc ? "none" : "flex" }}
+        >
+          {item.category === "chicken"  ? "🍗" :
+           item.category === "sandwich" ? "🥪" :
+           item.category === "pizza"    ? "🍕" :
+           item.category === "drinks"   ? "🥤" : "🍽️"}
+        </div>
+
         {/* Number badge */}
         {typeof item.id === "number" && (
           <div className="absolute top-3 left-3 w-7 h-7 rounded-full bg-gold flex items-center justify-center">
             <span className="text-dark font-bold text-xs">{item.id}</span>
           </div>
         )}
+
         {/* NEW badge */}
         {item.isNew && (
-          <span className="absolute top-3 right-3 bg-white text-dark text-xs font-bold px-2 py-0.5 rounded-full">
+          <span className="absolute top-3 right-3 bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
             NEW
           </span>
         )}
       </div>
 
-      {/* Info — flex grow so button stays at bottom */}
+      <div className="h-px bg-gray-100" />
+
+      {/* Info */}
       <div className="p-4 flex flex-col flex-1">
-        <h3 className="text-white font-semibold text-sm leading-tight mb-1">
-          {item.name}
-        </h3>
-        <p className="text-white/50 text-xs leading-relaxed mb-4 flex-1">
+
+        {/* Name + Price */}
+        <div className="flex items-start justify-between gap-2 mb-1">
+          <h3 className="text-gray-900 font-bold text-sm leading-tight">
+            {item.name}
+          </h3>
+          {item.price && (
+            <span className="text-red-600 font-bold text-sm whitespace-nowrap flex-shrink-0">
+              {item.price}
+            </span>
+          )}
+        </div>
+
+        <p className="text-gray-500 text-xs leading-relaxed mb-4 flex-1">
           {item.description}
         </p>
 
-        {/* WhatsApp button — always at bottom */}
+        {/* WhatsApp button */}
         <button
           onClick={() => orderOnWhatsApp(item.name, item.description)}
           className="mt-auto w-full py-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white text-xs font-semibold rounded-full transition-colors flex items-center justify-center gap-2"
@@ -50,8 +81,8 @@ function MenuCard({ item }) {
           </svg>
           Order on WhatsApp
         </button>
-      </div>
 
+      </div>
     </div>
   )
 }

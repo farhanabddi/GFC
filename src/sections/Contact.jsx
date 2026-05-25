@@ -25,7 +25,7 @@ const socials = [
   },
   {
     label: "TikTok",
-    href: "https://tiktok.com/@GFCBorama",
+    href: "https://www.tiktok.com/@goljannofriedchicken",
     bg: "#010101",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
