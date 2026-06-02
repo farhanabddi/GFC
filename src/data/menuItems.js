@@ -1,5 +1,5 @@
 const menuItems = [
- 
+
   // ── CHICKEN ─────────────────────────────────────────
   {
     id: 1,
@@ -110,6 +110,15 @@ const menuItems = [
     isNew: false,
   },
   {
+    id: 24,
+    name: "2 Pcs Broast + Rice",
+    category: "chicken",
+    description: "2 pieces broast + Rice + Coke",
+    price: "$4",
+    image: "/images/24.jpg",
+    isNew: false,
+  },
+  {
     id: 25,
     name: "3 Strips + Rice",
     category: "chicken",
@@ -126,10 +135,7 @@ const menuItems = [
     price: "$6.5",
     image: "/images/26.jpg",
     isNew: false,
-
   },
-
-
   {
     id: 27,
     name: "5 Strips + Rice",
@@ -140,18 +146,6 @@ const menuItems = [
     isNew: false,
   },
 
-    {
-    id: 24,
-    name: "2 Pcs Broast + Rice",
-    category: "sandwich",
-    description: "2 pieces broast + Rice + Coke",
-    price: "$4",
-    image: "/images/24.jpg",
-    isNew: false,
-  },
-
- 
- 
   // ── SANDWICH ────────────────────────────────────────
   {
     id: 13,
@@ -252,7 +246,7 @@ const menuItems = [
     image: "/images/23.jpg",
     isNew: false,
   },
- 
+
   // ── PIZZA ───────────────────────────────────────────
   {
     id: "P1",
@@ -326,7 +320,7 @@ const menuItems = [
     image: "/images/mixed.jpg",
     isNew: false,
   },
- 
+
   // ── DRINKS ──────────────────────────────────────────
   {
     id: "D1",
@@ -401,5 +395,5 @@ const menuItems = [
     isNew: false,
   },
 ]
- 
+
 export default menuItems
