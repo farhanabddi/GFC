@@ -141,7 +141,7 @@ function Contact() {
                     name="email"
                     value={form.email}
                     onChange={handleChange}
-                    placeholder="you@example.com"
+                    placeholder="goljannofriedchicken@gmail.com"
                     className="w-full bg-transparent border-b border-border text-white text-sm py-2 placeholder-gray-600 focus:outline-none focus:border-white/40 transition-colors"
                   />
                 </div>
