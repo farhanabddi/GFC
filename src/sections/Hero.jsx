@@ -90,16 +90,16 @@ function Hero() {
               border: "1px solid rgba(255,255,255,0.08)",
             }}
           >
-            <p className="text-gray-500 text-xs uppercase tracking-widest mb-4">Today's Special</p>
-            <div className="text-5xl mb-4">🍗</div>
-            <h3 className="text-white font-bold text-xl mb-1">Bucket of 8</h3>
-            <p className="text-gray-500 text-sm mb-4">Original recipe pieces with two sides</p>
+            <p className="text-gray-500 text-xs uppercase tracking-widest mb-4"></p>
+            <div className="text-5xl mb-4"></div>
+            <h3 className="text-white font-bold text-xl mb-1"></h3>
+            <p className="text-gray-500 text-sm mb-4"></p>
             <div className="flex items-center justify-between">
               <button
                 onClick={() => handleScroll("#menu")}
-                className="w-10 h-10 rounded-full bg-gold flex items-center justify-center hover:bg-yellow-400 transition-colors"
+                className="w-1 h-1 rounded-full bg-black flex items-center justify-center hover:bg-yellow-400 transition-colors"
               >
-                <span className="text-dark font-bold text-lg">→</span>
+                <span className="text-dark font-bold text-lg"></span>
               </button>
             </div>
           </div>
