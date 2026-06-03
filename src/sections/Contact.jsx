@@ -4,7 +4,7 @@ import { useState } from "react"
 const socials = [
   {
     label: "Facebook",
-    href: "https://facebook.com/GFCBorama",
+    href: "https://www.facebook.com/share/1BBGL1ToR6/?mibextid=wwXIfr",
     bg: "#1877F2",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -79,7 +79,7 @@ function Contact() {
               <p className="text-gray-600 text-xs uppercase tracking-widest mb-3">
                 Reach us directly
               </p>
-              <p className="text-white font-medium mb-1">hello@gfc.com</p>
+              <p className="text-white font-medium mb-1">goljannofriedchicken@gmail.com</p>
               <p className="text-white font-medium">+252 63 778 0005</p>
             </div>
 
@@ -141,7 +141,7 @@ function Contact() {
                     name="email"
                     value={form.email}
                     onChange={handleChange}
-                    placeholder="goljannofriedchicken@gmail.com"
+                    placeholder="Your email"
                     className="w-full bg-transparent border-b border-border text-white text-sm py-2 placeholder-gray-600 focus:outline-none focus:border-white/40 transition-colors"
                   />
                 </div>

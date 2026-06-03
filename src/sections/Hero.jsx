@@ -1,5 +1,5 @@
 const stats = [
-  { value: "5★", label: "Customer rating" },
+  { value: "★★★★★", label: "5 Star rating"    },
 ]
 
 function Hero() {
@@ -51,8 +51,8 @@ function Hero() {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Real chicken. Real flavour. Prepared fresh for every single order with care and quality in every bite. Enjoy hot, delicious meals made to satisfy your taste every time. 
-              GFC — where great taste meets real quality
+              Crispy, golden and made fresh for every order.<br />
+              GFC — where great taste meets real quality.
             </p>
 
             <div className="flex items-center gap-4 flex-wrap">
