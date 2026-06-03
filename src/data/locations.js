@@ -4,7 +4,7 @@ const locations = [
     name: "GFC Borama",
     address: "Near Masjid Geed Goble, Borama",
     phone: "+252 63 778 0005",
-    hours: "11:00 — 23:00",
+    hours: "12:00 — 00:00",
     isOpen: true,
   },
 ]

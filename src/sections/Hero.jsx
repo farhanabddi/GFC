@@ -1,5 +1,6 @@
 const stats = [
   { value: "★★★★★", label: "5 Star rating"    },
+  
 ]
 
 function Hero() {
