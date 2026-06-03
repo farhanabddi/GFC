@@ -400,7 +400,7 @@ const menuItems = [
     name: "Banana Juice",
     category: "drinks",
     description: "Freshly squeezed banana juice with mint",
-    price: "$0.7",
+    price: "$1.1",
     image: "/images/babanadii.jpg",
     isNew: false,
   },
